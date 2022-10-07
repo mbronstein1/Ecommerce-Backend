@@ -24,7 +24,7 @@ router.get('/:id', async (req, res) => {
     });
 
     if (!getOneProduct) {
-      res.status(404).json({ message: `No category found with id${id}` });
+      res.status(404).json({ message: `No product found with id${id}` });
       return;
     }
     res.status(200).json(getOneProduct);
@@ -118,9 +118,9 @@ router.delete('/:id', async (req, res) => {
     })
 
     if (!deletedProduct) {
-      res.status(404).json({ message: `No category found with id${id}` })
+      res.status(404).json({ message: `No product found with id${id}` })
     }
-    res.status(200).json({ message: `Category with id${id} successfully deleted!` })
+    res.status(200).json({ message: `Product with id${id} successfully deleted!` })
   } catch (err) {
     res.status(400).json(err)
   }
