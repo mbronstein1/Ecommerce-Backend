@@ -1,4 +1,4 @@
-# Ecommerce Backend
+# E-commerce Backend
 
 ## Description
 This is the thirteenth challenge in the Northwestern Coding Bootcamp (Module 13). This is a backend-only application that routes and stores categories, products, and tags for an ecommerce site. We were given some starter code and were expected to create all of the models' structure and associations, as well as creating all of the routing and http requests. We used express, mysql, sequelize, and dotenv NPM packages. We needed to create http routes for each method (GET, POST, PUT, DELETE) for each model, and successfully demonstrate execution of the different requests via Insomnia (since there is no front-end code). See video below for walk-through of the functionality.
